@@ -1,0 +1,5 @@
+curl -XPOST 'http://localhost:9200catalogo/pessoas/1/_update' -d '{
+  "doc": {
+    "nome": "Douglas Quintanilha"
+  }
+}'

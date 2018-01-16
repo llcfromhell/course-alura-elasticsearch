@@ -1,0 +1,37 @@
+curl -XPOST 'http://localhost:9200/catalogo/pessoas/1' -d '{
+    "nome": "João Silva",
+    "interesses": ["futebol", "música", "literatura"],
+    "cidade": "São Paulo",
+    "formação": "Letras",
+    "estado": "SP",
+    "país": "Brasil"
+}'
+
+curl -XPOST 'http://localhost:9200/catalogo/pessoas/2' -d '{
+    "nome": "Maria Silva",
+    "interesses": ["pintura", "literatura", "teatro"],
+    "cidade": "Diamantina",
+    "formação": "Artes Plásticas",
+    "estado": "MG",
+    "país": "Brasil"
+}'
+
+curl -XPOST 'http://localhost:9200/catalogo/pessoas/3' -d '{
+    "nome": "Richard Edward",
+    "interesses": ["matemática", "física", "música"],
+    "cidade": "Boston",
+    "formação": "Física",
+    "estado": "MA",
+    "país": "Estados Unidos"
+}
+'
+
+curl -XPOST 'http://localhost:9200/catalogo/pessoas/4' -d '{
+  "nome": "Patrick von Steppat",
+  "interesses": ["computação","culinária","cinema"],
+  "cidade": "Rio de Janeiro",
+  "formação": "Gastronomia",
+  "estado": "RJ",
+  "país": "Brasil"
+}'
+
